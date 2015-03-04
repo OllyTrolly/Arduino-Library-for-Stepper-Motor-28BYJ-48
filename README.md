@@ -1,5 +1,5 @@
 # Arduino-Library-for-Stepper-Motor-28BYJ-48
-A modified version of the official Arduino library exclusively for the stepper motor 28BYJ-48 (doesn't work with the official one)
+A modified version of the official Arduino library exclusively for the stepper motor 28BYJ-48 (with the board ULN2003) as the official version doesn't work properly with this stepper motor.
 
 Stepper library for Wiring/Arduino - Version 0.1 for Stepper Motor 28BYJ-48
   
@@ -20,5 +20,8 @@ Stepper library for Wiring/Arduino - Version 0.1 for Stepper Motor 28BYJ-48
   	   7  1  0  0  0
   	   8  1  0  0  1
 
-  The circuits can be found at 
+  An overview of the stepper motor can be found here:
+  http://42bots.com/wp-content/uploads/2014/02/28BYJ-48-Stepper-Motor.jpg
+  
+  Instructions for using the library can be found here (with the exception of the 2 pin methods):
   http://www.arduino.cc/en/Tutorial/Stepper
